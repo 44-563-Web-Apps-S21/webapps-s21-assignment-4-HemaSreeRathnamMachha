@@ -42,3 +42,9 @@ tr:nth-child(even)
     padding: 15px;
     margin: 15px;
 }
+
+.name:hover{
+    text-shadow:2px 3px 5px coral;
+    border:darkcyan;
+    border-style:solid;   
+}
