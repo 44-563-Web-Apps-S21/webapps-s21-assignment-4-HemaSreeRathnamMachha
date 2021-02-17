@@ -1,17 +1,17 @@
 .speech{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
 }
 .stage-direction{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18x;
+    font-size: 16x;
     color: black ;
     background-color: lightcyan;
 }
 .name{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 17px;
     color:black ;
 }
 .stage-direction:hover{
@@ -26,4 +26,19 @@
 }
 .HORTENSIO{
     color: orange;
+}
+
+table, th, td
+{
+    border: 1px solid black;
+}
+tr:nth-child(even)
+{
+ background-color: rgb(243, 243, 243);
+}
+.table{
+    color:turquoise;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
 }
