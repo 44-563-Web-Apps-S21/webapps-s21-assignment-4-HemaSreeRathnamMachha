@@ -28,6 +28,11 @@
     color: orange;
 }
 
+.VINCENTIO
+{
+    color: mediumpurple;
+}
+
 table, th, td
 {
     border: 1px solid black;
@@ -37,7 +42,7 @@ tr:nth-child(even)
  background-color: rgb(243, 243, 243);
 }
 .table{
-    color:turquoise;
+    color:navy;
     text-align: center;
     padding: 15px;
     margin: 15px;
@@ -47,4 +52,22 @@ tr:nth-child(even)
     text-shadow:2px 3px 5px coral;
     border:darkcyan;
     border-style:solid;   
+}
+ul.navbar-horizontal 
+{   list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar-horizontal li {
+    float:left; 
+    color:rgb(248, 117, 139);
+    background-color:linen;
+}
+ul.navbar-horizontal a {
+    display:block;
+    padding:9px;
+}
+ ul.navbar-horizontal a:hover{  
+    background-color: rgb(66, 48, 48);
+    color:white;
 }
